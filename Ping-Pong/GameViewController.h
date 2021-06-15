@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#define DLog() NSLog(@"[Line %d] %s",__LINE__,__FUNCTION__);
 
 NS_ASSUME_NONNULL_BEGIN
 
