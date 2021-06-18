@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		157EE7ED26772BDB000750A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 157EE7EC26772BDB000750A0 /* AppDelegate.m */; };
 		157EE7F026772BDB000750A0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 157EE7EF26772BDB000750A0 /* SceneDelegate.m */; };
-		157EE7F326772BDB000750A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157EE7F226772BDB000750A0 /* ViewController.m */; };
 		157EE7F626772BDB000750A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157EE7F426772BDB000750A0 /* Main.storyboard */; };
 		157EE7F826772BDE000750A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157EE7F726772BDE000750A0 /* Assets.xcassets */; };
 		157EE7FB26772BDE000750A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157EE7F926772BDE000750A0 /* LaunchScreen.storyboard */; };
 		157EE7FE26772BDE000750A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 157EE7FD26772BDE000750A0 /* main.m */; };
+		157EE80726772C29000750A0 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157EE80626772C29000750A0 /* GameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +22,13 @@
 		157EE7EC26772BDB000750A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		157EE7EE26772BDB000750A0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		157EE7EF26772BDB000750A0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		157EE7F126772BDB000750A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		157EE7F226772BDB000750A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		157EE7F526772BDB000750A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		157EE7F726772BDE000750A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		157EE7FA26772BDE000750A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		157EE7FC26772BDE000750A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		157EE7FD26772BDE000750A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		157EE80526772C29000750A0 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		157EE80626772C29000750A0 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +65,9 @@
 				157EE7EC26772BDB000750A0 /* AppDelegate.m */,
 				157EE7EE26772BDB000750A0 /* SceneDelegate.h */,
 				157EE7EF26772BDB000750A0 /* SceneDelegate.m */,
-				157EE7F126772BDB000750A0 /* ViewController.h */,
-				157EE7F226772BDB000750A0 /* ViewController.m */,
 				157EE7F426772BDB000750A0 /* Main.storyboard */,
+				157EE80526772C29000750A0 /* GameViewController.h */,
+				157EE80626772C29000750A0 /* GameViewController.m */,
 				157EE7F726772BDE000750A0 /* Assets.xcassets */,
 				157EE7F926772BDE000750A0 /* LaunchScreen.storyboard */,
 				157EE7FC26772BDE000750A0 /* Info.plist */,
@@ -145,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				157EE7F326772BDB000750A0 /* ViewController.m in Sources */,
+				157EE80726772C29000750A0 /* GameViewController.m in Sources */,
 				157EE7ED26772BDB000750A0 /* AppDelegate.m in Sources */,
 				157EE7FE26772BDE000750A0 /* main.m in Sources */,
 				157EE7F026772BDB000750A0 /* SceneDelegate.m in Sources */,
